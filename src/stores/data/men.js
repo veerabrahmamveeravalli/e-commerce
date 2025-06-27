@@ -1,7 +1,7 @@
 export const menData = [{
         "id": "Menswear_1",
         "product": "Menswear",
-        "image": "/assets/MenWear/1.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/MenWear/1.jpg`,
         "type": "T-Shirt",
         "brand": "Nike",
         "model": "Sporty Tee",
@@ -12,7 +12,7 @@ export const menData = [{
     {
         "id": "Menswear_2",
         "product": "Menswear",
-        "image": "/assets/MenWear/2.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/MenWear/2.jpg`,
         "type": "Dress Shirt",
         "brand": "Calvin Klein",
         "model": "ClassicFit",
@@ -23,7 +23,7 @@ export const menData = [{
     {
         "id": "Menswear_3",
         "product": "Menswear",
-        "image": "/assets/MenWear/3.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/MenWear/3.jpg`,
         "type": "Jeans",
         "brand": "Levi's",
         "model": "511 Slim Fit",
@@ -34,7 +34,7 @@ export const menData = [{
     {
         "id": "Menswear_4",
         "product": "Menswear",
-        "image": "/assets/MenWear/4.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/MenWear/4.jpg`,
         "type": "Polo Shirt",
         "brand": "Ralph Lauren",
         "model": "Signature Polo",
@@ -45,7 +45,7 @@ export const menData = [{
     {
         "id": "Menswear_5",
         "product": "Menswear",
-        "image": "/assets/MenWear/5.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/MenWear/5.jpg`,
         "type": "Jacket",
         "brand": "The North Face",
         "model": "Apex Bionic",
@@ -56,7 +56,7 @@ export const menData = [{
     {
         "id": "Menswear_6",
         "product": "Menswear",
-        "image": "/assets/MenWear/6.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/MenWear/6.jpg`,
         "type": "Shorts",
         "brand": "Under Armour",
         "model": "Tech Mesh Shorts",
@@ -67,7 +67,7 @@ export const menData = [{
     {
         "id": "Menswear_7",
         "product": "Menswear",
-        "image": "/assets/MenWear/7.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/MenWear/7.jpg`,
         "type": "Sweater",
         "brand": "Tommy Hilfiger",
         "model": "Crewneck Sweater",
@@ -78,7 +78,7 @@ export const menData = [{
     {
         "id": "Menswear_8",
         "product": "Menswear",
-        "image": "/assets/MenWear/8.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/MenWear/8.jpg`,
         "type": "Suit",
         "brand": "Hugo Boss",
         "model": "ModernFit Suit",
@@ -89,7 +89,7 @@ export const menData = [{
     {
         "id": "Menswear_9",
         "product": "Menswear",
-        "image": "/assets/MenWear/9.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/MenWear/9.jpg`,
         "type": "Hoodie",
         "brand": "Adidas",
         "model": "Essentials Hoodie",
@@ -100,7 +100,7 @@ export const menData = [{
     {
         "id": "Menswear_10",
         "product": "Menswear",
-        "image": "/assets/MenWear/10.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/MenWear/10.jpg`,
         "type": "Chinos",
         "brand": "Dockers",
         "model": "Alpha Khaki",
@@ -111,7 +111,7 @@ export const menData = [{
     {
         "id": "Menswear_11",
         "product": "Menswear",
-        "image": "/assets/MenWear/11.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/MenWear/11.jpg`,
         "type": "Swim Trunks",
         "brand": "Speedo",
         "model": "Endurance+ Swim Trunks",
@@ -122,7 +122,7 @@ export const menData = [{
     {
         "id": "Menswear_12",
         "product": "Menswear",
-        "image": "/assets/MenWear/12.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/MenWear/12.jpg`,
         "type": "Blazer",
         "brand": "Brothers",
         "model": "Classic Blazer",

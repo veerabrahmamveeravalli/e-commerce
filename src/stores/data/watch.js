@@ -1,7 +1,7 @@
 export const watchData = [{
         "id": "Watch_1",
         "product": "Watch",
-        "image": "/assets/Watch/1.png",
+        "image": `${import.meta.env.BASE_URL}/assets/Watch/1.png`,
         "brand": "Apple",
         "model": "Watch Series 7",
         "price": "399.00",
@@ -11,7 +11,7 @@ export const watchData = [{
     {
         "id": "Watch_2",
         "product": "Watch",
-        "image": "/assets/Watch/2.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Watch/2.jpg`,
         "brand": "Samsung",
         "model": "Galaxy Watch 4",
         "price": "299.99",
@@ -21,7 +21,7 @@ export const watchData = [{
     {
         "id": "Watch_3",
         "product": "Watch",
-        "image": "/assets/Watch/3.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Watch/3.jpg`,
         "brand": "Fitbit",
         "model": "Versa 3",
         "price": "229.00",
@@ -31,7 +31,7 @@ export const watchData = [{
     {
         "id": "Watch_4",
         "product": "Watch",
-        "image": "/assets/Watch/4.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Watch/4.jpg`,
         "brand": "Garmin",
         "model": "Forerunner 945",
         "price": "599.50",
@@ -41,7 +41,7 @@ export const watchData = [{
     {
         "id": "Watch_5",
         "product": "Watch",
-        "image": "/assets/Watch/5.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Watch/5.jpg`,
         "brand": "Fossil",
         "model": "Gen 5",
         "price": "249.00",
@@ -51,7 +51,7 @@ export const watchData = [{
     {
         "id": "Watch_6",
         "product": "Watch",
-        "image": "/assets/Watch/6.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Watch/6.jpg`,
         "brand": "Casio",
         "model": "G-Shock GA-2100",
         "price": "129.99",
@@ -61,7 +61,7 @@ export const watchData = [{
     {
         "id": "Watch_7",
         "product": "Watch",
-        "image": "/assets/Watch/7.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Watch/7.jpg`,
         "brand": "TAG Heuer",
         "model": "Carrera Calibre Heuer 02",
         "price": "5999.00",
@@ -71,7 +71,7 @@ export const watchData = [{
     {
         "id": "Watch_8",
         "product": "Watch",
-        "image": "/assets/Watch/8.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Watch/8.jpg`,
         "brand": "Timex",
         "model": "Weekender Chronograph",
         "price": "89.00",
@@ -81,7 +81,7 @@ export const watchData = [{
     {
         "id": "Watch_9",
         "product": "Watch",
-        "image": "/assets/Watch/9.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Watch/9.jpg`,
         "brand": "Citizen",
         "model": "Eco-Drive Promaster",
         "price": "299.99",
@@ -91,7 +91,7 @@ export const watchData = [{
     {
         "id": "Watch_10",
         "product": "Watch",
-        "image": "/assets/Watch/10.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Watch/10.jpg`,
         "brand": "Seiko",
         "model": "SKX007",
         "price": "199.50",
@@ -101,7 +101,7 @@ export const watchData = [{
     {
         "id": "Watch_11",
         "product": "Watch",
-        "image": "/assets/Watch/11.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Watch/11.jpg`,
         "brand": "Michael Kors",
         "model": "Access Lexington 2",
         "price": "279.00",
@@ -111,7 +111,7 @@ export const watchData = [{
     {
         "id": "Watch_12",
         "product": "Watch",
-        "image": "/assets/Watch/12.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Watch/12.jpg`,
         "brand": "Huawei",
         "model": "Watch GT 3",
         "price": "199.00",

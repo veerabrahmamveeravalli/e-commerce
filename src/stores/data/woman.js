@@ -1,7 +1,7 @@
 export const womanData = [{
         "id": "WomanWear_1",
         "product": "Woman Wear",
-        "image": "/assets/Woman/1.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Woman/1.jpg`,
         "type": "Dress",
         "brand": "Zara",
         "model": "Flowy Maxi",
@@ -12,7 +12,7 @@ export const womanData = [{
     {
         "id": "WomanWear_2",
         "product": "Woman Wear",
-        "image": "/assets/Woman/2.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Woman/2.jpg`,
         "type": "Blouse",
         "brand": "H&M",
         "model": "Classic Silk",
@@ -23,7 +23,7 @@ export const womanData = [{
     {
         "id": "WomanWear_3",
         "product": "Woman Wear",
-        "image": "/assets/Woman/3.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Woman/3.jpg`,
         "type": "Jeans",
         "brand": "Levi's",
         "model": "501 Skinny",
@@ -34,7 +34,7 @@ export const womanData = [{
     {
         "id": "WomanWear_4",
         "product": "Woman Wear",
-        "image": "/assets/Woman/4.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Woman/4.jpg`,
         "type": "Jumpsuit",
         "brand": "Forever 21",
         "model": "Utility Jumpsuit",
@@ -45,7 +45,7 @@ export const womanData = [{
     {
         "id": "WomanWear_5",
         "product": "Woman Wear",
-        "image": "/assets/Woman/5.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Woman/5.jpg`,
         "type": "Skirt",
         "brand": "Topshop",
         "model": "A-Line Mini",
@@ -56,7 +56,7 @@ export const womanData = [{
     {
         "id": "WomanWear_6",
         "product": "Woman Wear",
-        "image": "/assets/Woman/6.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Woman/6.jpg`,
         "type": "Sweater",
         "brand": "Gap",
         "model": "Cable Knit",
@@ -67,7 +67,7 @@ export const womanData = [{
     {
         "id": "WomanWear_7",
         "product": "Woman Wear",
-        "image": "/assets/Woman/7.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Woman/7.jpg`,
         "type": "Blazer",
         "brand": "Mango",
         "model": "Tailored Blazer",
@@ -78,7 +78,7 @@ export const womanData = [{
     {
         "id": "WomanWear_8",
         "product": "Woman Wear",
-        "image": "/assets/Woman/8.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Woman/8.jpg`,
         "type": "Activewear",
         "brand": "Lululemon",
         "model": "Align Leggings",
@@ -89,7 +89,7 @@ export const womanData = [{
     {
         "id": "WomanWear_9",
         "product": "Woman Wear",
-        "image": "/assets/Woman/8.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Woman/8.jpg`,
         "type": "Swimwear",
         "brand": "Secret",
         "model": "Bikini Set",
@@ -100,7 +100,7 @@ export const womanData = [{
     {
         "id": "WomanWear_10",
         "product": "Woman Wear",
-        "image": "/assets/Woman/10.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Woman/10.jpg`,
         "type": "Pants",
         "brand": "Hollister",
         "model": "High-Rise Skinny",
@@ -111,7 +111,7 @@ export const womanData = [{
     {
         "id": "WomanWear_11",
         "product": "Woman Wear",
-        "image": "/assets/Woman/11.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Woman/11.jpg`,
         "type": "Coat",
         "brand": "Voltaire",
         "model": "Wool Blend Coat",
@@ -122,7 +122,7 @@ export const womanData = [{
     {
         "id": "WomanWear_12",
         "product": "Woman Wear",
-        "image": "/assets/Woman/12.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/Woman/12.jpg`,
         "type": "T-Shirt",
         "brand": "Eagle",
         "model": "Graphic Tee",
