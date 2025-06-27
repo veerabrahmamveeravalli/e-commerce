@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.cart{
+  margin: 30px;
+  font-size:3rem;
+}
+body{
+  background-color: aliceblue;
+}
+.naviBar {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  height: 15vh;
+  width: 100vw;
+  padding: 10px;
+}
+
+.productSection{
+  display: flex;
+  padding: 25px;
+  background-color: white;
+  
+}
+
+.imgBox{
+  width: 80%;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+.proImg{
+  width: 80%;
+  margin: 10px;
+}
+
+.proTitle h2{
+  margin: 10px;
+}
+.subMenu{
+  background-color: black;
+  color: white;
+}
+.subMenu ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+.subMenu ul{
+  display: inline-flex;
+}
+
+
+.pageSection{
+  display: grid;
+  grid-template-columns: repeat(4,300px);
+  gap: 10px;
+  width: 60%;
+}
+
+.pageImg{
+  width: 250px;
+  margin: 10px;
+  
+}
+.pageImg img{
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.pageImg h3{
+  text-align: center;
+  margin: 10px;
+}
+.pageImg p{
+  text-align: center;
+  margin: 10px;
+}
+.menImg{
+  width: 100px;
+  height: 100px;
+}
+
+.proImgPage{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.indexPage{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+}
+
+.indexImg{
+  width: 500px;
+  height: 500px;
+  
+}
+.indexImg img{
+  width: 100%;
+  height: 100%;
+}
+
+.indexDetails{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.indexBtn{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(240, 231, 107);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.fullPage{
+  display: flex;
+  padding: 0;
+  margin: 3px;
+
+ 
+  
+}
+
+.selected{
+  width: 30%;
+}
+.pageSection{
+  width: 60%;
+}
+
+
+
+
+
+.cartContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.cartCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.cartImg img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.cartDetails {
+  text-align: center;
+}
+
+.removeBtn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.removeBtn:hover {
+  background-color: #e60000;
+}
+
+.emptyCart {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+  color: #666;
+}
+.checkoutBtn {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.checkoutBtn:hover {
+  background-color: #218838;
+}
+
+.paymentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh; /* 100vh - 15vh navbar */
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+
+.paymentPage {
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+
+.paymentPage h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.paymentPage p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.paymentForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.paymentForm div {
+  display: flex;
+  flex-direction: column;
+}
+
+.paymentForm label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #444;
+}
+
+.paymentForm input,
+.paymentForm textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.paymentForm input:focus,
+.paymentForm textarea:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.paymentForm textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.submitPaymentBtn {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitPaymentBtn:hover {
+  background-color: #357ab8;
+}

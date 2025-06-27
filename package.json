@@ -1,0 +1,23 @@
+{
+  "name": "e-mart",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://veerabrahmamveeravalli.github.io/e-commerce",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^your-eslint-version",
+    "gh-pages": "^6.0.0",
+    "vite": "^your-vite-version"
+  }
+}
