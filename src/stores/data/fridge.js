@@ -1,7 +1,7 @@
 export const fridgeData = [{
         "id": "Refrigerator_1",
         "product": "Refrigerator",
-        "image": "/assets/fridge/1.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/fridge/1.jpg`,
         "brand": "LG",
         "model": "CoolFrost 5000",
         "price": "999.99",
@@ -11,7 +11,7 @@ export const fridgeData = [{
     {
         "id": "Refrigerator_2",
         "product": "Refrigerator",
-        "image": "/assets/fridge/2.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/fridge/2.jpg`,
         "brand": "Samsung",
         "model": "FridgeMaster Pro",
         "price": "1499.00",
@@ -21,7 +21,7 @@ export const fridgeData = [{
     {
         "id": "Refrigerator_3",
         "product": "Refrigerator",
-        "image": "/assets/fridge/3.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/fridge/3.jpg`,
         "brand": "Whirlpool",
         "model": "ChillZone 300",
         "price": "899.99",
@@ -31,7 +31,7 @@ export const fridgeData = [{
     {
         "id": "Refrigerator_4",
         "product": "Refrigerator",
-        "image": "/assets/fridge/4.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/fridge/4.jpg`,
         "brand": "Frigidaire",
         "model": "CoolMist XL",
         "price": "599.50",
@@ -41,7 +41,7 @@ export const fridgeData = [{
     {
         "id": "Refrigerator_5",
         "product": "Refrigerator",
-        "image": "/assets/fridge/5.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/fridge/5.jpg`,
         "brand": "KitchenAid",
         "model": "FreezeGuard 800",
         "price": "799.00",
@@ -51,7 +51,7 @@ export const fridgeData = [{
     {
         "id": "Refrigerator_6",
         "product": "Refrigerator",
-        "image": "/assets/fridge/6.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/fridge/6.jpg`,
         "brand": "GE",
         "model": "SmartCool+",
         "price": "1199.99",
@@ -61,7 +61,7 @@ export const fridgeData = [{
     {
         "id": "Refrigerator_7",
         "product": "Refrigerator",
-        "image": "/assets/fridge/7.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/fridge/7.jpg`,
         "brand": "Maytag",
         "model": "IceMaster 1500",
         "price": "1399.00",
@@ -71,7 +71,7 @@ export const fridgeData = [{
     {
         "id": "Refrigerator_8",
         "product": "Refrigerator",
-        "image": "/assets/fridge/8.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/fridge/8.jpg`,
         "brand": "Bosch",
         "model": "FreshSense 400",
         "price": "999.00",
@@ -81,7 +81,7 @@ export const fridgeData = [{
     {
         "id": "Refrigerator_9",
         "product": "Refrigerator",
-        "image": "/assets/fridge/9.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/fridge/9.jpg`,
         "brand": "Haier",
         "model": "CoolWave French Door",
         "price": "1699.50",
@@ -91,7 +91,7 @@ export const fridgeData = [{
     {
         "id": "Refrigerator_10",
         "product": "Refrigerator",
-        "image": "/assets/fridge/10.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/fridge/10.jpg`,
         "brand": "Sub-Zero",
         "model": "ProChill 8000",
         "price": "2999.00",
@@ -101,7 +101,7 @@ export const fridgeData = [{
     {
         "id": "Refrigerator_11",
         "product": "Refrigerator",
-        "image": "/assets/fridge/11.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/fridge/11.jpg`,
         "brand": "Kenmore",
         "model": "Elite Series",
         "price": "1199.00",
@@ -111,7 +111,7 @@ export const fridgeData = [{
     {
         "id": "Refrigerator_12",
         "product": "Refrigerator",
-        "image": "/assets/fridge/12.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/fridge/12.jpg`,
         "brand": "Viking",
         "model": "Professional Series",
         "price": "3999.99",
