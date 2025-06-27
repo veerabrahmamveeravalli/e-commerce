@@ -12,7 +12,7 @@ export const MobileData = [{
     {
         "id": "Mobile_2",
         "product": "Mobile",
-        "image": "/assets/NewMobile/2.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/NewMobile/2.jpg`,
         "company": "Samsung",
         "model": "Galaxy Z Fold 3",
         "price": "1799.00",
@@ -22,7 +22,7 @@ export const MobileData = [{
     {
         "id": "Mobile_3",
         "product": "Mobile",
-        "image": "/assets/NewMobile/3.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/NewMobile/3.jpg`,
         "company": "Google",
         "model": "Pixel 6",
         "price": "799.99",
@@ -32,7 +32,7 @@ export const MobileData = [{
     {
         "id": "Mobile_4",
         "product": "Mobile",
-        "image": "/assets/NewMobile/4.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/NewMobile/4.jpg`,
         "company": "OnePlus",
         "model": "9 Pro",
         "price": "899.00",
@@ -42,7 +42,7 @@ export const MobileData = [{
     {
         "id": "Mobile_5",
         "product": "Mobile",
-        "image": "/assets/NewMobile/5.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/NewMobile/5.jpg`,
         "company": "Xiaomi",
         "model": "Mi 11 Ultra",
         "price": "999.50",
@@ -52,7 +52,7 @@ export const MobileData = [{
     {
         "id": "Mobile_6",
         "product": "Mobile",
-        "image": "/assets/NewMobile/6.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/NewMobile/6.jpg`,
         "company": "Sony",
         "model": "Xperia 1 III",
         "price": "1199.00",
@@ -62,7 +62,7 @@ export const MobileData = [{
     {
         "id": "Mobile_7",
         "product": "Mobile",
-        "image": "/assets/NewMobile/7.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/NewMobile/7.jpg`,
         "company": "LG",
         "model": "G9 ThinQ",
         "price": "749.00",
@@ -72,7 +72,7 @@ export const MobileData = [{
     {
         "id": "Mobile_8",
         "product": "Mobile",
-        "image": "/assets/NewMobile/8.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/NewMobile/8.jpg`,
         "company": "Motorola",
         "model": "Edge 20",
         "price": "599.99",
@@ -82,7 +82,7 @@ export const MobileData = [{
     {
         "id": "Mobile_9",
         "product": "Mobile",
-        "image": "/assets/NewMobile/9.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/NewMobile/9.jpg`,
         "company": "Huawei",
         "model": "P50 Pro",
         "price": "1299.00",
@@ -92,7 +92,7 @@ export const MobileData = [{
     {
         "id": "Mobile_10",
         "product": "Mobile",
-        "image": "/assets/NewMobile/10.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/NewMobile/10.jpg`,
         "company": "Oppo",
         "model": "Find X5 Pro",
         "price": "899.50",
@@ -102,7 +102,7 @@ export const MobileData = [{
     {
         "id": "Mobile_11",
         "product": "Mobile",
-        "image": "/assets/NewMobile/11.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/NewMobile/11.jpg`,
         "company": "Nokia",
         "model": "8.4 5G",
         "price": "549.00",
@@ -112,7 +112,7 @@ export const MobileData = [{
     {
         "id": "Mobile_12",
         "product": "Mobile",
-        "image": "/assets/NewMobile/12.jpg",
+        "image": `${import.meta.env.BASE_URL}/assets/NewMobile/12.jpg`,
         "company": "Realme",
         "model": "GT Master Edition",
         "price": "379.99",
