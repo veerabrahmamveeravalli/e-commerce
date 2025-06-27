@@ -2,7 +2,7 @@ export const MobileData = [{
 
         "id": "Mobile_1",
         "product": "Mobile",
-        "image": "/assets/NewMobile/1.png",
+        "image": `${import.meta.env.BASE_URL}/assets/NewMobile/1.png`,
         "company": "Apple",
         "model": "iPhone 13 Pro",
         "price": "1099.00",
