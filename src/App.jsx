@@ -64,8 +64,8 @@ function App() {
       <Route path='/women/:id' element={<WomenSingle />} />
       <Route path='/cart' element={<UserCart />} />
       <Route path="/payment" element={<PaymentPage />} />
-      <Route path="/login" element={<login />} />
-      <Route path="/login" element={<login />} />
+      <Route path="/login" element={<Login />} />
+      
     </Routes>
     
     
