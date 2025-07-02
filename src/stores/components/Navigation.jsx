@@ -14,9 +14,12 @@ const Navigation = () => {
         <input type='text' placeholder='Search for products' />
         </div>  
       <div className='user'>
-        <div className='userDetails'>
-            SignIn/SignUp 
-        </div>  
+        <Link to='/login'>
+          <div className='userDetails'>
+              SignIn/SignUp 
+          </div>          
+        </Link>
+
 
       </div>
       <Link to='/cart'>

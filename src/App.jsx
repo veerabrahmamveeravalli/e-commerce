@@ -28,6 +28,7 @@ import MenSingle from './singles/MenSingle'
 import WomenSingle from './singles/WomenSingle'
 import UserCart from './stores/UserCart'
 import PaymentPage from './stores/pages/PaymentsPage'
+import Login from './stores/components/login'
 
 function App() {
   return (
@@ -63,6 +64,7 @@ function App() {
       <Route path='/women/:id' element={<WomenSingle />} />
       <Route path='/cart' element={<UserCart />} />
       <Route path="/payment" element={<PaymentPage />} />
+      <Route path="/login" element={<login />} />
     </Routes>
     
     
